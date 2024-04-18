@@ -1,5 +1,4 @@
 FROM node:alpine
 COPY ./index.js /index.js
-USER node
-EXPOSE 3000
+EXPOSE 80
 CMD ["node", "/index.js"]
